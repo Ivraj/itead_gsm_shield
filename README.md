@@ -1,6 +1,8 @@
 # itead_gsm_shield
 Some documentation on how to get the Diymall Itead RasPi GSM shield set up. 
 
+NOTE: I've recently been getting errors with getting a fresh RasPi image to connect using this guide. It could be a problem with my MVNO, however, if you spot any errors or missed steps, please do raise issues and/or make pull requests. Thanks!
+
 # Getting Started
 ## Installation
 In order to communcate with the SIM Modem and connect to your internet provider, you'll need to install the following packages.
@@ -53,6 +55,9 @@ connect "/usr/sbin/chat -v -f /etc/chatscripts/gprs -T [your_APN_here]"
 
 ... to fill in your provider's APN where it says `[your_APN_here]`. 
 
-## TODO
+# Contributions
+Unfortunately, the documentation on this shield is rather lackluster to say the least. Hence, there are undoubtedly improvements that can be made to these scripts. Please don't hesitate to raise git issues or make pull requests in order to improve this repo for everyone's use. 
+
+# TODO
 - Add `restart_modem.py` so that the SIM modem is always on. 
 - Test out these scripts with older RasPis. 
