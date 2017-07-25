@@ -44,7 +44,7 @@ sudo cp interfaces /etc/network/interfaces
 sudo cp fona /etc/ppp/peers/
 ```
 
-## Adjust the script for you MVNO
+## Adjust the script for your MVNO
 Lastly, you'll need to add the Access Point Name (APN) of your SIM Provider to the `fona` script. Go to the fona script and change the following line...
 
 ```
