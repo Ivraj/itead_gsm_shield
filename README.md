@@ -36,7 +36,7 @@ Upon opening up `/boot/config.txt`, search for the `uart_enable` setting. If not
 enable_uart=1
 ```
 
-Be sure to save the changes you've made. 
+Be sure to save the changes you've made and reboot the device.
 
 ## Adding the fona and interface files
 First git clone this repo by running `git clone https://github.com/Ivraj/itead_gsm_shield`. Next, `cd` into the repo and run the following commands...
